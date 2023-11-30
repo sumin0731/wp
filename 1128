@@ -30,6 +30,7 @@ select * from student;
 
 
 
+-- [server.xml]
 
 <Resource name="jdbc/mysql" auth="Container" type="javax.sql.DataSource"
     maxActive="100" maxIdle="30" maxWait="10000"
@@ -37,6 +38,7 @@ select * from student;
     url="jdbc:mysql://localhost:3306/univdb?autoReconnect=true"/>
 </Context>
 </host>
+
 
 
 
