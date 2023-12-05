@@ -7,10 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2> Ç¥Çö¾ğ¾î¿¡¼­ ÀÚ¹ÙºóÁî getter È£Ãâ</h2>
+<h2> í‘œí˜„ì–¸ì–´ì—ì„œ ìë°”ë¹ˆì¦ˆ getter í˜¸ì¶œ</h2>
 
 <jsp:useBean id="user" class="member.User">
-	<jsp:setProperty name="user" property="uname" value="°­±æ¼ö"/>
+	<jsp:setProperty name="user" property="uname" value="ê°•ê¸¸ìˆ˜"/>
 	<jsp:setProperty name="user" property="uid" value="road"/>
 	<jsp:setProperty name="user" property="unum" value="1234"/>
 </jsp:useBean>
