@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>EL ÇÔ¼ö</title>
+<title>EL í•¨ìˆ˜</title>
 </head>
 <body>
 
@@ -16,10 +16,10 @@
 	if ( session.isNew() ) session.setAttribute("now", today);
 %>
 
-<h2> El ÇÔ¼ö ¿¹Á¦ </h2>
+<h2> El í•¨ìˆ˜ ì˜ˆì œ </h2>
 
-[Refresh]ÇÏ¸é ÇöÀç ½Ã°£ : ${ date:format(now) } <p>
-Ã³À½ Á¢¼ÓÇÑ ½Ã°£ : ${ date:format(sessionScope.now) } <p>
+[Refresh]í•˜ë©´ í˜„ì¬ ì‹œê°„ : ${ date:format(now) } <p>
+ì²˜ìŒ ì ‘ì†í•œ ì‹œê°„ : ${ date:format(sessionScope.now) } <p>
 
 </body>
 </html>
