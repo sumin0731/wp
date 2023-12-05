@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>ǥ����� ���尴ü</title>
+<title>표현언어 내장객체</title>
 </head>
 <body>
-	<h2>JSP 2.0 ǥ�����(Expression Language) ���尴ü</h2>
+	<h2>JSP 2.0 표현언어(Expression Language) 내장객체</h2>
 	<%
-		request.setAttribute("univ", "�ѱ����б�");
-		application.setAttribute("name","ȫ�浿");
+		request.setAttribute("univ", "한국대학교");
+		application.setAttribute("name","홍길동");
 	%>
 		<hr><br>
 		<table border="1" align=center >
