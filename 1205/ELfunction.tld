@@ -6,13 +6,13 @@
 				web-jsptaglibrary_2_0.xsd"
 	version="2.0">
 	
-	<description>EL¿¡¼­ ÇÔ¼ö½ÇÇà</description>
+	<description>ELì—ì„œ í•¨ìˆ˜ì‹¤í–‰</description>
 	<tlib-version>1.0</tlib-version>
 	<short-name>ELfunctions</short-name>
 	<uri>/ELfunctions</uri>
 	
 	<function>
-	 <description>Date °´Ã¼¸¦ (yyyy-MM-dd(E) HH:mm:ss) ÇüÅÂ·Î Ãâ·Â </description>
+	 <description>Date ê°ì²´ë¥¼ (yyyy-MM-dd(E) HH:mm:ss) í˜•íƒœë¡œ ì¶œë ¥ </description>
 	 <name>format</name>
 	 <funtion-class>
 	 	form.ELDateFormat
